@@ -7,15 +7,25 @@ To develop a project for solving financial applications of a customer in banking
  Features  
  
   *User registration for online banking if not register.
-  *Adding Beneficiary account by customer. 
+  
+  *Adding Beneficiary account by customer.
+  
   *Transferring amount to the local customer account number. 
+  
   *Admin must approve the user account activation before it can be used and transferring funds, view statement history. *Customer gets to know his last login date and time each   time he logs in. 
+  
   *Customer can check all transactions made with their account. 
+  
   *Customer can check their account statement within a date range. 
+  
   *Customer can request for ATM and Cheque Book. 
+  
   *Admin can add/edit/delete customer account’s 
+  
   *All two of them (customer & admin) can change their password. 
+  
   *Admin Login pages are hidden from customer for security purpose. 
+  
   *Passwords are stored as encrypted 
  
  Customer Satisfaction: 
