@@ -57,12 +57,12 @@ void test_fordelay(void) {
 
 }
 
-void test_new_acc(void) {
+void test_newacc(void) {
   TEST_ASSERT_EQUAL();
 
 }
 
-void test_view_list(void) {
+void test_viewlist(void) {
   TEST_ASSERT_EQUAL();
   
 }

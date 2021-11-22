@@ -38,7 +38,7 @@ void fordelay(int j)
 }
 
 
-void new_acc()
+void newacc()
 
 {
     int choice;
@@ -98,7 +98,7 @@ void new_acc()
             goto add_invalid;
         }
 }
-void view_list()
+void viewlist()
 {
     FILE *view;
     view=fopen("record.dat","r");
@@ -499,15 +499,11 @@ void menu(void)
 {   int choice;
     system("cls");
     system("color 9");
-    printf("\n\n\t\t\tCUSTOMER ACCOUNT BANKING MANAGEMENT SYSTEM");
-    printf("\n\n\n\t\t\t WELCOME TO THE MAIN MENU");
-    printf("\n\n\t\t1.Create new account\n\t\t2.Update information of existing account\n\t\t3.For transactions\n\t\t4.Check the details of existing account\n\t\t5.Removing existing account\n\t\t6.View customer's list\n\t\t7.Exit\n\n\n\n\n\t\t Enter your choice:");
-    scanf("%d",&choice);
-
+    
     system("cls");
     switch(choice)
     {
-        case 1:new_acc();
+        case 1:newacc();
         break;
         case 2:edit();
         break;
@@ -517,7 +513,7 @@ void menu(void)
         break;
         case 5:erase();
         break;
-        case 6:view_list();
+        case 6:viewlist();
         break;
         case 7://close();
         break;

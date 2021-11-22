@@ -26,7 +26,7 @@ int valid_operation(int operation);
 int main()
 {
     char pass[10],password[10]="hello@123";
-    int i=0;
+    int i=0, choice;
     printf("\n\n\t\tEnter the password to login:");
     scanf("%s",pass);
     /*do
@@ -47,7 +47,11 @@ int main()
             printf(".");
         }
                 system("cls");
-            menu();
+                printf("\n\n\t\t\tCUSTOMER ACCOUNT BANKING MANAGEMENT SYSTEM");
+                printf("\n\n\n\t\t\t WELCOME TO THE MAIN MENU");
+                printf("\n\n\t\t1.Create new account\n\t\t2.Update information of existing account\n\t\t3.For transactions\n\t\t4.Check the details of existing account\n\t\t5.Removing existing account\n\t\t6.View customer's list\n\t\t7.Exit\n\n\n\n\n\t\t Enter your choice:");
+                scanf("%d",&choice);
+                menu();
         }
     else
         {   printf("\n\nWrong password!!");

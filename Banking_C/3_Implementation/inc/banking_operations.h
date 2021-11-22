@@ -35,19 +35,22 @@ float interest(float t,float amount,int rate);
 void fordelay(int j);
 /**
  * @brief Function to create a new account
+ * 
  * @return It doesn't return anything
  * 
  */
-void new_acc();
+void newacc();
 /**
  * @brief Function to view the list of users
+ * 
  * @return It doesn't return anything
  * 
  */
 
-void view_list();
+void viewlist();
 /**
  * @brief Function to update the info of the user
+ * 
  * @return It doesn't return anything
  * 
  */
@@ -55,6 +58,7 @@ void view_list();
 void edit(void);
 /**
  * @brief Function to do transaction on account
+ * 
  * @return It doesn't return anything
  * 
  */
@@ -62,6 +66,7 @@ void edit(void);
 void transact(void);
 /**
  * @brief Function to close the account
+ * 
  * @return It doesn't return anything
  * 
  */
@@ -69,6 +74,7 @@ void transact(void);
 void erase(void);
 /**
  * @brief Function to view the details of the account
+ * 
  * @return It doesn't return anything
  * 
  */
@@ -76,6 +82,7 @@ void erase(void);
 void see(void);
 /**
  * @brief Function to closes the program
+ * 
  * @return It doesn't return anything
  * 
  */
@@ -83,6 +90,7 @@ void see(void);
 void close(void);
 /**
  * @brief Function to get the choice of the user transaction
+ * 
  * @return It doesn't return anything
  * 
  */
