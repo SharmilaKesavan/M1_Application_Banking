@@ -56,66 +56,58 @@ float interest(float t,float amount,int rate);
 /**
  * @brief Function to create a new account
  * 
- * @return It doesn't return anything
+ * @param accno account number, name name  of the account holder, month , day, year, age, address , citizenship, phone, acc_type, amt
+ * 
+ * 
+ *  @return 1 or 0 specifies the success of account creation
  * 
  */
-int newacc();
+int newacc(int accno,char name[60],int month,int day,int year,int age,char address[60],char citizenship[15],double phone,char acc_type[10],float amt);
+
 /**
  * @brief Function to view the list of users
  * 
- * @return It doesn't return anything
+ * @param acc_no account  number which is to be display
+ * @return 1 or 0 specifies the success of account creation
  * 
  */
+int viewlist(int acc_no);
 
-void viewlist();
 /**
  * @brief Function to update the info of the user
  * 
- * @return It doesn't return anything
+ * @param acc_no account number, name name of the account holder, phone phonenumber
+ * @return 1 or 0 specifies the success of account creation
  * 
  */
-
-void edit(void);
+int edit(int acc_no, char name[60], int phone);
 /**
  * @brief Function to do transaction on account
  * 
- * @return It doesn't return anything
- * 
+ * @param acc_no account number
+ * @return 1 or 0 specifies the success of account creation
+ *  
  */
 
-void transact(void);
+int transact(int accno);
 /**
  * @brief Function to close the account
  * 
- * @return It doesn't return anything
- * 
+ * @param acc_no account number
+ * @return 1 or 0 specifies the success of account creation
+ *  
  */
 
-void erase(void);
+int erase(int acc_no);
+
 /**
  * @brief Function to view the details of the account
  * 
- * @return It doesn't return anything
+ * @param acc_no account number, name name of the account holder
+ * @return 1 or 0 specifies the success of account creation
  * 
  */
-
-void see(void);
-/**
- * @brief Function to closes the program
- * 
- * @return It doesn't return anything
- * 
- */
-
-void close(void);
-/**
- * @brief Function to get the choice of the user transaction
- * 
- * @return It doesn't return anything
- * 
- */
-
-void menu(void);
+int checking(int acc_no, char name[60]);
 
 
 #endif //__BANK_H__
