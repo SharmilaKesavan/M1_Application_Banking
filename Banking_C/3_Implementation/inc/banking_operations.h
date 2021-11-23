@@ -15,7 +15,34 @@
 #include "stdlib.h"
 #include "windows.h"
 
+typedef enum error_t
+{
+    SUCCESS, /**< Return code for success */
+    NULL_PTR /**< Return code for NULL pointer arguments*/
+} error_t;
 
+//Structure to define personal details of the account holder
+struct {
+
+    char name[60];
+    int acc_no,age;
+    char address[60];
+    char citizenship[15];
+    double phone;
+    char acc_type[10];
+    float amt;
+    struct date dob;
+    struct date deposit;
+    struct date withdraw;
+
+    }add,upd,check,rem,transaction;
+    
+
+//Structure to declare the date
+struct date{
+    int month,day,year;
+
+    };
 /**
  * @brief Function to find the Simple Interest
  * 
@@ -25,21 +52,14 @@
  */
 float interest(float t,float amount,int rate);
 
-/**
- * @brief Function to find the delay
- * 
- * @param j input character whose type should be found
- * @return It doesn't return anything
- * 
- */
-void fordelay(int j);
+
 /**
  * @brief Function to create a new account
  * 
  * @return It doesn't return anything
  * 
  */
-void newacc();
+int newacc();
 /**
  * @brief Function to view the list of users
  * 
