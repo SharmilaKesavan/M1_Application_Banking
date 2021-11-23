@@ -32,7 +32,7 @@ int main_exit;
 int main()
 {
     char pass[10],password[10]="hello@123";
-    int i=0, choice, acc, trans, view, time, rate, intrst, update;
+    int i=0, choice, acc, trans, view, time, rate, intrst, update,list;
     int delete;
     DEBUG_PRINT("\n\n\t\tEnter the password to login:");
     scanf("%s",pass);
@@ -275,7 +275,7 @@ int main()
             break;
         case 6:
             printf("\nACC. NO.\tNAME\t\t\tADDRESS\t\t\tPHONE\n");
-            list = viewlist();
+            list = viewlist(add.acc_no);
             if(1==list)
             {
                 printf("\n%6d\t %10s\t\t\t%10s\t\t%.0lf",add.acc_no,add.name,add.address,add.phone);

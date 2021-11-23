@@ -8,10 +8,10 @@ BUILD = build
 
 # All source code files
 SRC = project_main.c\
-src/banking_operations.c
+src/newacc.c
 
 # All test source files
-TEST_SRC = src/banking_operations.c\
+TEST_SRC = src/newacc.c\
 test/test_banking_operations.c\
 unity/unity.c\
 
