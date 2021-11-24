@@ -1,6 +1,8 @@
 # M1_Application_Banking
 
 
+## Code Analysis
+
 
 CppCheck
 
@@ -13,6 +15,8 @@ UnitTesting
 [![CI](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/unit_testing.yml)
 
 
+##Build
+
 Linux OS Build
 
 
@@ -23,6 +27,8 @@ Windows OS Build
 
 
 [![Windows C/C++ CI](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/windows_c-cpp.yml/badge.svg)](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/windows_c-cpp.yml)
+
+## Code Quality
 
 
 CodeInspector - Codiga
