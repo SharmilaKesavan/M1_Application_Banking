@@ -4,7 +4,7 @@
 #include "banking_operations.h"
 
 
-int newacc(int accno,char name[60],int month,int day,int year,int age,char address[60],char citizenship[15],double phone,char acc_type[10],float amt)
+int newacc(int accno)
 {
     FILE *ptr;
 

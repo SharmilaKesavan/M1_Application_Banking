@@ -62,7 +62,7 @@ float interest(float t,float amount,int rate);
  *  @return 1 or 0 specifies the success of account creation
  * 
  */
-int newacc(int accno,char name[60],int month,int day,int year,int age,char address[60],char citizenship[15],double phone,char acc_type[10],float amt);
+int newacc(int accno);
 
 /**
  * @brief Function to view the list of users
@@ -89,7 +89,7 @@ int edit(int acc_no, char name[60], int phone);
  *  
  */
 
-int transact(int accno);
+int transact(int accno, int amt);
 /**
  * @brief Function to close the account
  * 

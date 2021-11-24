@@ -12,7 +12,7 @@ float interest(float t,float amount,int rate)
 
 }
 
-int transact(int accno)
+int transact(int accno, int amt)
 {   int choice,test=0;
     FILE *old,*newrec;
     old=fopen("record.dat","r");
@@ -39,5 +39,7 @@ int transact(int accno)
    fclose(newrec);
    remove("record.dat");
    rename("new.dat","record.dat");
+   if(add.amt<transaction.amt){
    return -1;
+   }
 }

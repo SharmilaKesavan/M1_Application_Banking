@@ -7,7 +7,7 @@
 
 
    
-void viewlist()
+void viewlist(int accno)
 {
     FILE *view;
     view=fopen("record.dat","r");

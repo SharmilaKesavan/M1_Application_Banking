@@ -106,7 +106,7 @@ int main()
             scanf("%f",&add.amt);
             DEBUG_PRINT("\nType of account:\n\t#Saving\n\t#Current\n\t#Fixed1(for 1 year)\n\t#Fixed2(for 2 years)\n\t#Fixed3(for 3 years)\n\n\tEnter your choice:");
             scanf("%s",&add.acc_type);
-            acc = newacc(add.acc_no,add.name,add.dob.month,add.dob.day,add.dob.year,add.age,add.address,add.citizenship,add.phone,add.amt,add.acc_type);  
+            acc = newacc(add.acc_no);  
             if(0==acc){
                 DEBUG_PRINT("Account no. already in use!");
             }
@@ -141,7 +141,7 @@ int main()
         case 3:
             printf("Enter the account no. of the customer:");
             scanf("%d",&transaction.acc_no);
-            trans = transact(transaction.acc_no);
+            trans = transact(transaction.acc_no,transaction.amt);
             if(0==trans){
                  printf("\n\nYOU CANNOT DEPOSIT OR WITHDRAW CASH IN FIXED ACCOUNTS!!!!!");
             }
@@ -168,7 +168,7 @@ int main()
                 }
 
             break;
-        case 4:
+        /*case 4:
             view = checking(add.acc_no,add.name);
             if(1==view)
             {
@@ -259,7 +259,7 @@ int main()
                  printf("\nRecord not found!!");
             
             }
-            break;
+            break;*/
         case 5:
             printf("Enter the account no. of the customer you want to delete:");
             scanf("%d",&rem.acc_no);

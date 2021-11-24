@@ -27,6 +27,6 @@ int edit(int acc_no, char address[60],int phone)
 
     if(test!=1)
     {   
-        return -1; 
+        return 0; 
     }    
          
