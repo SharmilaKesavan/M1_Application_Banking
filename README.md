@@ -25,7 +25,9 @@ Windows OS Build
 
 CodeInspector - Codiga
 
-[![CodeInspector Score]https://api.codiga.io/project/29850/score/svg](https://api.codiga.io/project/29850/score/svg)
+<a href="https://app.codiga.io/public/user/github/SharmilaKesavan">
+   <img src="https://api.codiga.io/public/badge/user/github/SharmilaKesavan?style=light" alt="codiga badge" />
+</a>
 
 
 CodeInspector - Codiga Grade
