@@ -41,6 +41,7 @@ CodeInspector - Codiga Grade
 [![Code Grade](https://api.codiga.io/project/29850/status/svg)](https://www.codiga.io)
 
 
+
 ## Aim
 
 - The bank management system is an application for maintaining a person’s account in a bank .
