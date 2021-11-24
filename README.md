@@ -25,7 +25,10 @@ Windows OS Build
 
 #Aim
 
-
+- The bank management system is an application for maintaining a person’s account in a bank .
+- To develop a software for solving financial applications of a customer in banking environment in order to nurture.
+- The bank management system is an application for maintaining a person’s account in a bank .
+- The bank management system is an application for maintaining a person’s account in a bank .
 
 
 
