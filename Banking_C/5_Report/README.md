@@ -188,7 +188,9 @@ Opportunities
 
 - This includes all the activity diagrams, flowcharts, usecase diagrams of the banking management systems
 
+![Behaviour diagram1](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/2_Architecture/BehaviorDiagrams/behavior_diag.drawio.png)
 
+![Bhaviour diagram2](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/2_Architecture/BehaviorDiagrams/behavior_diag1.drawio.png)
 
 
  
