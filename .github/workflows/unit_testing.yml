@@ -16,4 +16,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make test
-      run:  make test -C 3_Implementation/
+      run:  make test -C Banking_C/3_Implementation/
