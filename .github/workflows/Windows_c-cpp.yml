@@ -1,4 +1,7 @@
-name: Windows C/C++ CI
+
+
+   
+name: Build Windows
 
 on:
   push:
@@ -13,7 +16,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: build
-      run: gcc projec_main.c -o project_main.exe
-    - name: Run
-      run: ./project_main.exe
+    - name: make all
+      run:  make all -C 3_Implementation/
