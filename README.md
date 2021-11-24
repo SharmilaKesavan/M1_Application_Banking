@@ -25,12 +25,13 @@ Windows OS Build
 
 CodeInspector - Codiga
 
-https://api.codiga.io/project/29850/score/svg
+
 
 
 CodeInspector - Codiga Grade
 
-https://api.codiga.io/project/29850/status/svg
+[![Code Grade](https://api.codiga.io/project/29850/status/svg)](https://www.codiga.io)
+
 
 ## Aim
 
