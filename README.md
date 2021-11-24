@@ -26,7 +26,7 @@ Windows OS Build
 CodeInspector - Codiga
 
 
-
+[![Code Score](https://api.codiga.io/project/29850/score/svg)](https://www.codiga.io)
 
 CodeInspector - Codiga Grade
 
