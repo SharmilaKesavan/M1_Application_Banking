@@ -175,6 +175,17 @@ Opportunities
 |  L_01_H_03  |Apply Loan                                                    |  Future                       |
 
 
+# Design
+
+
+| **Folders**          | **Description**                     |    
+|----------------------|-------------------------------------|
+|  Structure Diagrams  |Contains Block diagram images        |
+|  Behaviour Diagrams  |Contains Activity diagram images     |
+
+
+
+
 
 
  
