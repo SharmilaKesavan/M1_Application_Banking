@@ -20,6 +20,14 @@ Linux OS Build
 Windows OS Build
 
 
+[![Windows C/C++ CI](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/windows_c-cpp.yml/badge.svg)](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/windows_c-cpp.yml)
+
+
+#Aim
+
+
+
+
 
 
 
