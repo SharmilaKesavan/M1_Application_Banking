@@ -51,38 +51,28 @@ To develop a project for solving financial applications of a customer in banking
     
 #### High level requirements
 
+| **Test ID** | **Description**                                              | **Status(Implemented/Future** |    
+|-------------|--------------------------------------------------------------|-------------------------------|
+|  H_01       |Funds transaction                                             |  Implemented                  |
+|  H_02       |Withdraw the Amount                                           |  Implemented                  |
+|  H_02       |Funds Transfer                                                |  Future                       |
+|  H_03       |Loan                                                          |  Future                       |
 
 
--- ID | Description | Status (Implemented/Future)
-      |             |                            
-      |             |                                
-      |             |
-      |             |
 
- 1)Fund Transfer
+#### Low level requirements
+
+| **Test ID** | **Description**                                              | **Status(Implemented/Future** |    
+|-------------|--------------------------------------------------------------|-------------------------------|
+|  L_01_H_01  |Checking valid or invalid users                               |  Implemented                  |
+|  L_02_H_02  |Account details to be provided                                |  Implemented                  |
+|  L_01_H_02  |Checking user valid or not                                    |  Implemented                  |
+|  L_02_H_02  |Checking the Balance                                          |  Implemented                  |
+|  L_01_H_03  |Apply Loan                                                    |  Future                       |
+
+
+
+
  
- 2)Withdraw Amount
- 
- 3)Loans
- 
- 4)Security
- 
- Low Level Requirements
- 
- 1.1 User login
- 
- 1.2 Account details provided
- 
- 2.1 User login
- 
- 2.2 Checking Balance
- 
- 3.1 Apply loan
- 
- 3.2 Approval
- 
- 3.3 Insurance provided
- 
- 4.1 Pin changes
  
  
