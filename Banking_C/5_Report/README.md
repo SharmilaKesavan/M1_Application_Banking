@@ -265,6 +265,11 @@ Opportunities
 |  L_02       |Deleting or Closing an account details                        |accountno              |1(Deleted)      |Closing the account    |Boundary based    |
 
 
+# Images And Videos
+
+- The output and the explanation of the implementation are in images and videos for reference.
+
+
 
 
 
