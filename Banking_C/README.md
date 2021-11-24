@@ -13,6 +13,21 @@
 |  7_Others             |Others                                                        | 
 
 
+## Contributors List and Summary
 
+
+|  Issues   |    Features               | Issuess Raised |Issues Resolved|
+|-----------|---------------------------|----------------|---------------|
+| 1         | Build OS Run              | 1              | 1 yes         |      
+| 2         | Creating Images reference | 1              | 1 yes         | 
+| 3         | Creating Documentation    | 1              | 1 yes         | 
+
+
+## Challenges Faced and How Was It Overcome
+
+
+1. Building the project
+2. Badges for Code quality
+. 
 
 
