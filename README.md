@@ -25,12 +25,12 @@ Windows OS Build
 
 CodeInspector - Codiga
 
-<a href="https://app.codiga.io/public/user/github/SharmilaKesavan">
-   <img src="https://api.codiga.io/public/badge/user/github/SharmilaKesavan?style=light" alt="codiga badge" />
-</a>
+https://api.codiga.io/project/29850/score/svg
 
 
 CodeInspector - Codiga Grade
+
+https://api.codiga.io/project/29850/status/svg
 
 ## Aim
 
