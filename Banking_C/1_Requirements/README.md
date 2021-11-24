@@ -1,10 +1,12 @@
 # Requirements
 
+## Introduction
+
 To develop a project for solving financial applications of a customer in banking environment in order to nurture the needs of  an end banking user by providing various ways to perform banking tasks. Also to  enable  the  user’s  workspace  to  have  additional functionalities  which  are  not  provided under a conventional banking project.  The  Bank  Account  Management  System  undertaken  as  a  project  is  based  on  relevant technologies.  The  main  aim  of  this  project  is  to  develop  software  for  Bank  Account Management System. This project has been developed to carry out the processes easily and quickly,  which  is  not  possible  with  the  manuals  systems,  which  are  overcome  by  this software.  This  project  is  developed  using  C programming with Makefiles.
 
  The  system  is designed as an interactive and content management system. The content management system deals with data entry, validation confirm and updating whiles the interactive system deals with system interaction with the administration and users.
  
- # Features  
+ ## Features  
  
   - User registration for online banking if not register.
   
@@ -32,22 +34,30 @@ To develop a project for solving financial applications of a customer in banking
  
   #### Customer Satisfaction: 
  
-    Client  can do  his  operations  comfortably  without  any  risk  or  losing  of  his privacy. 
+    - Client  can do  his  operations  comfortably  without  any  risk  or  losing  of  his privacy. 
     Our software will perform and fulfill all the tasks that any customer would desire. 
     
  #### Saving Customer Time:
  
-    Client doesn't need to go to the bank to do small operation.
+    - Client doesn't need to go to the bank to do small operation.
     
  #### Protecting The Customer:
  
-    It  helps  the  customer  to  be  satisfied  and  comfortable  in  his  choices,  this protection contains customer’s account, money and his privacy. 
+    - It  helps  the  customer  to  be  satisfied  and  comfortable  in  his  choices,  this protection contains customer’s account, money and his privacy. 
     
  #### Transferring Money:
  
-    Help client transferring money to/or another bank or country.
+    - Help client transferring money to/or another bank or country.
     
 #### High level requirements
+
+
+
+-- ID | Description | Status (Implemented/Future)
+      |             |                            
+      |             |                                
+      |             |
+      |             |
 
  1)Fund Transfer
  
