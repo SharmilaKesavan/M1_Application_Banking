@@ -35,7 +35,7 @@ To develop a project for solving financial applications of a customer in banking
   #### Customer Satisfaction: 
  
     - Client  can do  his  operations  comfortably  without  any  risk  or  losing  of  his privacy. 
-    Our software will perform and fulfill all the tasks that any customer would desire. 
+Our software will perform and fulfill all the tasks that any customer would desire. 
     
  #### Saving Customer Time:
  
@@ -49,8 +49,14 @@ To develop a project for solving financial applications of a customer in banking
  
     - Help client transferring money to/or another bank or country.
     
-    
+
+## State of Art
+
+[!Evolution of Banking](https://howbankswork.com/wp-content/uploads/2013/02/fig6-4.jpg)
+
 ## 4W and 1H
+
+
 #### What
     - The bank management system is an application for maintaining a person’s account in a bank.
 #### Why
