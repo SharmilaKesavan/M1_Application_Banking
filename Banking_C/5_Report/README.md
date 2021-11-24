@@ -192,6 +192,9 @@ Opportunities
 
 ![Bhaviour diagram2](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/2_Architecture/BehaviorDiagrams/behavior_diag1.drawio.png)
 
+# Structural Diagrams
+
+- This includes the class diagram and component diagram and block diagram of the banking management system
 
  
  
