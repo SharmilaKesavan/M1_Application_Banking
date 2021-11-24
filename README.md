@@ -23,6 +23,13 @@ Windows OS Build
 [![Windows C/C++ CI](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/windows_c-cpp.yml/badge.svg)](https://github.com/SharmilaKesavan/M1_Application_Banking/actions/workflows/windows_c-cpp.yml)
 
 
+CodeInspector - Codiga
+
+https://api.codiga.io/project/29850/score/svg
+
+
+CodeInspector - Codiga Grade
+
 ## Aim
 
 - The bank management system is an application for maintaining a person’s account in a bank .
