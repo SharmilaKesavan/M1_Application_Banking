@@ -49,6 +49,39 @@ To develop a project for solving financial applications of a customer in banking
  
     - Help client transferring money to/or another bank or country.
     
+    
+## 4W and 1H
+#### What
+    - The bank management system is an application for maintaining a person’s account in a bank.
+#### Why
+    - To  design an application, which could store bank data and provide an interface for retrieving customer related details with 100% accuracy. This bank management system also allow user to add new customer account, delete account and user can also modify existing user account information 
+#### Where
+    - This application can be implement in local branches of a Bank.
+#### How
+    - Banking System is an application that will take input from user such as customer details and account details and then it will do all the transactions internally that are required and generate an records of customer name and total amount.
+
+## SWOT Analysis
+
+#### Strengths
+
+- Saves Time
+-  Digital banking convenience
+- Increases the economic growth
+- Feature to add or update data of the Customer
+
+#### Weaknesses
+- Cannot came back, once forward to next step
+Opportunities
+- Can be implemented in any type of bank accounts
+- Expansion of bank accounts to all mobile users
+#### Threats
+- Other Similar Applications
+- Stability of the System
+
+
+
+
+    
 #### High level requirements
 
 | **Test ID** | **Description**                                              | **Status(Implemented/Future** |    
