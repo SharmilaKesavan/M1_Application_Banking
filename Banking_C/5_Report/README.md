@@ -270,6 +270,18 @@ Opportunities
 - The output and the explanation of the implementation are in images and videos for reference.
 
 
+![Image reference1](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/6_ImagesAndVideos/banking.jpg)
+
+![Image reference2](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/6_ImagesAndVideos/bank1.jpg)
+
+
+![Image reference3](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/6_ImagesAndVideos/bank2.jpg)
+
+![Image reference4](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/6_ImagesAndVideos/Banking.out.out)
+
+
+
+
 
 
 
