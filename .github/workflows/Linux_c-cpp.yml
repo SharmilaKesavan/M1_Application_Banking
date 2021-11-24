@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: build 
-      run: gcc banking_operations.c -o banking_operations.exe
+      run: gcc project_main.c -o project_main.exe
     - name: Run
-      run: ./banking_operations.exe
+      run: ./project_main.exe
