@@ -8,12 +8,11 @@
 
 /* Prototypes for all the test functions */
 float interest(float t,float amount,int rate);
-void newacc(void);
-void viewlist(void);
-void edit(void);
-void transact(void);
-void erase(void);
-
+int newacc(int accno);
+int viewlist(int acc_no);
+int edit(int acc_no, char name[60], int phone);
+int transact(int accno, int amt);
+int erase(int acc_no);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -41,19 +40,19 @@ int main()
 /* Write all the test functions */ 
 
 void test_newacc(void) {
-  TEST_ASSERT_EQUAL(0, newacc(123));
+  TEST_ASSERT_EQUAL(0, newacc(-12345678));
 
 }
 
 void test_viewlist(void) {
-  TEST_ASSERT_EQUAL(0, viewlist(12345678));
+  TEST_ASSERT_EQUAL(0, viewlist(-12345678));
   
 }
 void test_edit(void) {
-  TEST_ASSERT_EQUAL(0, edit(12345678);
+  TEST_ASSERT_EQUAL(1, edit(12345678,'gorimedu',2233445));
 }
 void test_transact(void) {
-  TEST_ASSERT_EQUAL(-1, transact(500));
+  TEST_ASSERT_EQUAL(-1, transact(12345678,500));
 }
 void test_erase(void) {
   TEST_ASSERT_EQUAL(0, erase(12345678));

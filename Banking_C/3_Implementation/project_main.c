@@ -32,7 +32,7 @@ int main_exit;
 int main()
 {
     char pass[10],password[10]="hello@123";
-    int i=0, choice, acc, trans, view, time, rate, intrst, update,list;
+    int i=0, ch, choice, acc, trans, view, time, rate, intrst, update,list;
     int delete;
     DEBUG_PRINT("\n\n\t\tEnter the password to login:");
     scanf("%s",pass);
@@ -53,7 +53,7 @@ int main()
                 DEBUG_PRINT("\n\n\t\t\tCUSTOMER ACCOUNT BANKING MANAGEMENT SYSTEM");
                 DEBUG_PRINT("\n\n\n\t\t\t WELCOME TO THE MAIN MENU");
                 DEBUG_PRINT("\n\n\t\t1.Create new account\n\t\t2.Update information of existing account\n\t\t3.For transactions\n\t\t4.Check the details of existing account\n\t\t5.Removing existing account\n\t\t6.View customer's list\n\t\t7.Exit\n\n\n\n\n\t\t Enter your choice:");
-                DEBUG_PRINT("%d",&choice);
+                DEBUG_PRINT("%d",&ch);
                 
         } 
     else
@@ -79,13 +79,13 @@ int main()
                     goto login_try;}
 
         }
-    switch(choice)
+    switch(ch)
     {
         case 1:
             
             DEBUG_PRINT("\t\t\t ADD RECORD  ");
             DEBUG_PRINT("\n\n\nEnter today's date(mm/dd/yyyy):");
-            scanf("%d/%d/%d",&add.deposit.month,&add.deposit.day,&add.deposit.year);
+            scanf("%d/%d/%d",&add.deposit->month,&add.deposit->day,&add.deposit->year);
             DEBUG_PRINT("\nEnter the account number:");
             scanf("%d",&check.acc_no);
             
@@ -93,7 +93,7 @@ int main()
             DEBUG_PRINT("\nEnter the name:");
             scanf("%s",&add.name);
             DEBUG_PRINT("\nEnter the date of birth(mm/dd/yyyy):");
-            scanf("%d/%d/%d",&add.dob.month,&add.dob.day,&add.dob.year);
+            scanf("%d/%d/%d",&add.dob->month,&add.dob->day,&add.dob->year);
             DEBUG_PRINT("\nEnter the age:");
             scanf("%d",&add.age);
             DEBUG_PRINT("\nEnter the address:");
@@ -168,8 +168,8 @@ int main()
                 }
 
             break;
-        /*case 4:
-            view = checking(add.acc_no,add.name);
+        case 4:
+            /*view = checking(add.acc_no,add.name);
             if(1==view)
             {
                 printf("Do you want to check by\n1.Account no\n2.Name\nEnter your choice:");
@@ -178,13 +178,13 @@ int main()
                 {   printf("Enter the account number:");
                     scanf("%d",&check.acc_no);
                     printf("\nAccount NO.:%d\nName:%s \nDOB:%d/%d/%d \nAge:%d \nAddress:%s \nCitizenship No:%s \nPhone number:%.0lf \nType Of Account:%s \nAmount deposited:$ %.2f \nDate Of Deposit:%d/%d/%d\n\n",add.acc_no,add.name,add.dob.month,add.dob.day,add.dob.year,add.age,add.address,add.citizenship,add.phone,
-                    add.acc_type,add.amt,add.deposit.month,add.deposit.day,add.deposit.year);
+                    add.acc_type,add.amt,add.deposit->month,add.deposit->day,add.deposit->year);
                     if(strcmpi(add.acc_type,"fixed1")==0)
                         {
                             time=1.0;
                             rate=9;
                             intrst=interest(time,add.amt,rate);
-                            printf("\n\nYou will get $%.2f as interest on %d/%d/%d",intrst,add.deposit.month,add.deposit.day,add.deposit.year+1);
+                            printf("\n\nYou will get $%.2f as interest on %d/%d/%d",intrst,add->deposit.month,add.deposit->day,add.deposit->year+1);
                     }
                     else if(strcmpi(add.acc_type,"fixed2")==0)
                     {
@@ -258,8 +258,8 @@ int main()
             else{
                  printf("\nRecord not found!!");
             
-            }
-            break;*/
+            }*/
+            break;
         case 5:
             printf("Enter the account no. of the customer you want to delete:");
             scanf("%d",&rem.acc_no);

@@ -12,7 +12,7 @@ int newacc(int accno)
     account_no:
     system("cls");
     
-    while(fscanf(ptr,"%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n",&add.acc_no,add.name,&add.dob.month,&add.dob.day,&add.dob.year,&add.age,add.address,add.citizenship,&add.phone,add.acc_type,&add.amt,&add.deposit.month,&add.deposit.day,&add.deposit.year)!=EOF)
+    while(fscanf(ptr,"%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n",&add.acc_no,add.name,&add.dob->month,&add.dob->day,&add.dob->year,&add.age,add.address,add.citizenship,&add.phone,add.acc_type,&add.amt,&add.deposit->month,&add.deposit->day,&add.deposit->year)!=EOF)
     {
         if (check.acc_no==add.acc_no)
         { 
@@ -23,7 +23,7 @@ int newacc(int accno)
     }
     add.acc_no=check.acc_no;
        
-    fprintf(ptr,"%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n",add.acc_no,add.name,add.dob.month,add.dob.day,add.dob.year,add.age,add.address,add.citizenship,add.phone,add.acc_type,add.amt,add.deposit.month,add.deposit.day,add.deposit.year);
+    fprintf(ptr,"%d %s %d/%d/%d %d %s %s %lf %s %f %d/%d/%d\n",add.acc_no,add.name,add.dob->month,add.dob->day,add.dob->year,add.age,add.address,add.citizenship,add.phone,add.acc_type,add.amt,add.deposit->month,add.deposit->day,add.deposit->year);
     fclose(ptr);
     add_invalid:
     system("cls");

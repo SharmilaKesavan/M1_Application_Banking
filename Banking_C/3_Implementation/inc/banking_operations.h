@@ -22,7 +22,7 @@ typedef enum error_t
 } error_t;
 
 //Structure to define personal details of the account holder
-struct {
+typedef struct {
 
     char name[60];
     int acc_no,age;
@@ -31,18 +31,21 @@ struct {
     double phone;
     char acc_type[10];
     float amt;
-    struct date dob;
-    struct date deposit;
-    struct date withdraw;
+    struct date *dob;
+    struct date *deposit;
+    struct date *withdraw;
 
-    }add,upd,check,rem,transaction;
+    }customer;
     
-
+    customer add;
+    customer upd;
+    customer check;
+    customer rem;
+    customer transaction;
 //Structure to declare the date
-struct date{
+    typedef struct date{
     int month,day,year;
-
-    };
+    }a;
 /**
  * @brief Function to find the Simple Interest
  * 
