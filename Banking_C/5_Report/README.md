@@ -197,9 +197,11 @@ Opportunities
 - This includes the class diagram and component diagram and block diagram of the banking management system
 
  
+ ![Structural diagram1](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/2_Architecture/StructureDiagrams/struct_diag.drawio.png)
  
+ ![Structural diagram2](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/2_Architecture/StructureDiagrams/struct_diag1.drawio.png)
  
-
+![Structural diagram3](https://github.com/SharmilaKesavan/M1_Application_Banking/blob/main/Banking_C/2_Architecture/StructureDiagrams/struct_diag2.drawio.png)
 
 
 
