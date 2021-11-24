@@ -52,7 +52,7 @@ Our software will perform and fulfill all the tasks that any customer would desi
 
 ## State of Art
 
-[!Evolution of Banking](https://howbankswork.com/wp-content/uploads/2013/02/fig6-4.jpg)
+![Evolution of Banking](https://howbankswork.com/wp-content/uploads/2013/02/fig6-4.jpg)
 
 ## 4W and 1H
 
